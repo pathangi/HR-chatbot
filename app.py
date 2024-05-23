@@ -18,7 +18,8 @@ import logging
 import vertexai
 from vertexai.generative_models import GenerativeModel, GenerationConfig
 
-from langchain_community.document_loaders import PyPDFLoader  # to load and parse PDFs
+#from langchain_community.document_loaders import PyPDFLoader  # to load and parse PDFs   -- doing this for the HR chatbot
+from langchain.document_loaders import PyPDFLoader  #to load and parse PDFs
 import markdown  # to format LLM output for web display
 
 import os  # to remove temp PDF files
